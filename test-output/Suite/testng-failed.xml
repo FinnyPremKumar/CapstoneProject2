@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="techademy.capstome.StepDefinition">
+        <methods>
+          <include name="i_verify_the_presence_of_the_image_and_navigate_through_images"/>
+          <include name="a_new_tab_should_open_and_I_switch_to_it"/>
+          <include name="quitDriver"/>
+          <include name="initializeDriver"/>
+          <include name="i_click_on_the_IFRAME_link"/>
+        </methods>
+      </class> <!-- techademy.capstome.StepDefinition -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
